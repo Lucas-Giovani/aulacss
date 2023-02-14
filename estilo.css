@@ -1,0 +1,50 @@
+.principal
+        {
+            position: relative;
+            width: 500px;
+            height: 250px;
+            background-color: rgba(0, 108, 209, 0.336);
+            border-style: solid;
+            border-width: 5px;
+            border-color: rgb(0, 255, 179);
+            border-radius: 20px;
+            
+
+
+        }
+        .interna
+        {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(120, 37, 214);
+            border-radius: 50px;
+
+
+        }
+        .menu:hover
+        {
+background-color: blue;
+        }
+
+        .menu
+        {
+            width: 150px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            position: absolute;
+            left: 175px;
+            top: 0px;
+
+
+        }
+        .centralizado
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            justify-items: center;
+            align-items: center;
+            align-content: center;  
+
+        }
